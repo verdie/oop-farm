@@ -24,3 +24,8 @@ test('The Wheat class calculates the proper yield', () => {
 })
 
 const {Sugarcane} = require('./crops');
+
+test('A crop can store its area size', () => {
+    const crop = new Crop(12345)
+    expect(crop.acres).toBe(12345)
+  })
