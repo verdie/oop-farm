@@ -88,3 +88,5 @@ test('A crop can store its area size', () => {
     farm.addAnimal(new Cow(100))
     expect(farm.calculateIncome()).not.toBe(0)
   })
+
+  const {Pig, Horse, Cow, Animal} = require('./animals');
